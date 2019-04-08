@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 import ImageResults from '../image-results/ImageResults';
+import './Search.css';
 
 class Search extends Component {
  state ={
@@ -23,12 +24,25 @@ class Search extends Component {
   render() {
       console.log(this.state.images)
     return (
-      <div>
-     
-          <input name="searchText" 
+
+    <div>
+      <header className="header-top">
+
+          <div className="input-box">
+          <input className="input-search" name="searchText" 
           value={this.state.searchText} 
           onChange={this.onTextChange}/>
-          <ImageResults images={this.state.images}/>
+         </div>
+
+        <div className="login-box">
+            <h1>LOGIN</h1>
+
+        </div>
+        </header>
+
+        <div className="container-img">
+        <ImageResults images={this.state.images}/>
+        </div>
       </div>
     )
   }

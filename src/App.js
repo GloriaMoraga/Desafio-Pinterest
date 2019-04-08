@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import NavBar from './components/navBar/NavBar';
 import Search from './components/search/Search';
-
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
         <Search />
        
       </div>
