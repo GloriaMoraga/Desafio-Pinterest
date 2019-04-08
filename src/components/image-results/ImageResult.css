@@ -1,0 +1,15 @@
+.imgBox{
+    width: 300px;
+    height: auto;
+    
+}
+
+.imgresult{
+    width:100%;
+}
+
+.container-box-img{
+display: flex;
+flex-flow: row wrap;
+
+}

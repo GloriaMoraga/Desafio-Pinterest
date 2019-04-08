@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import ImageResults from '../image-results/ImageResults';
 
 class Search extends Component {
  state ={
@@ -27,7 +28,7 @@ class Search extends Component {
           <input name="searchText" 
           value={this.state.searchText} 
           onChange={this.onTextChange}/>
-   
+          <ImageResults images={this.state.images}/>
       </div>
     )
   }
