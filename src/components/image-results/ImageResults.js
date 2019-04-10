@@ -17,7 +17,7 @@ document.getElementById('modalBox').style.display="block";
       <div className="columns">
           {images.map(img => (
                <div className="tag" id={img.id}>
-                <a href="#modalBox"><img className="tagImage" alt={img.title} src={img.webformatURL}/></a>
+                <img className="tagImage"  src={img.webformatURL} alt={img.tags}/>
                </div>
                
    
