@@ -16,12 +16,14 @@ class Search extends Component {
         image: []
       }
 
- onTextChange = e =>{
-     this.setState({[e.target.name]: e.target.value}, () => {
+ 
+handleSubmit = e =>{
+ this.setState({[e.target.name]: e.target.value}, () => {
          axios.get(`${this.state.apiUrl}/?key=${this.state.apiKey}&q=${this.state.searchText}&image_type=photo&per_page=${this.state.amount}&safesearch=true&orientation=vertical`)
          .then(res => this.setState({images: res.data.hits}))
          .catch(err => console.log(err));
      });
+     document.getElementById('RandomImage').style.display="none";
  };   
  
  componentDidMount(){
@@ -40,7 +42,7 @@ class Search extends Component {
          <div className="logo"><img alt="logo" src={logo}/></div>
           <input className="input-search" name="searchText" 
           value={this.state.searchText} 
-          onChange={this.onTextChange}/>
+          onChange={this.handleSubmit}/>
          </div>
 
         <div className="login-box">
@@ -57,7 +59,8 @@ class Search extends Component {
         </header>
 
         <div className="container-img">
-        <ImageRandom image={this.state.image}/>
+        <div id="RandomImage"><ImageRandom image={this.state.image}/></div>
+        
         <ImageResults images={this.state.images}/>
         </div>
       </div>
