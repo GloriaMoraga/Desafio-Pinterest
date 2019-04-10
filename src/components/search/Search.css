@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.text-title{
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-size: 16px;
+color: #8e8e8e;
+}
+
+.text-title:hover{
+color: #666;
+
+
+    }
 .header-top{
     width: 100%;
     height: 100px;
@@ -6,16 +20,54 @@
     justify-content:space-around;
 }
 .input-box{
-    width: 60%;
-    padding: 30px;
+    width: 55%;
+    padding: 12px;
+    display: flex;
 }
 
 .login-box{
-    width: 30%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo{
+    width: 35px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+
+.logo img{
+    width: 100%;
+   
+}
+.icon-class{
+    font-size: 25px;
+    color:#8e8e8e;
+    padding: 10px;
+}
+
+.user-box{
+    width:50px;
+    height: auto;
+
+}
+
+.user-box img{
+    width: 30px;
+    border-radius: 50%;
+    padding-top:20px;
+    margin-left: 20px;
+  
+    
 
 }
 .input-search{
-    background-color:#ccc;
+    background-color: #efefef;
     border: 0;
     border-radius: 4px;
     box-shadow: none;
@@ -23,10 +75,10 @@
     color: #333;
     font-size: 16px;
     font-weight: 600;
-    height: 100%;
+    height: 40px;
     line-height: 20px;
     outline: none;
-    padding: 0 40px 0 52px;
+    padding: 0 20px 0 22px;
     width: 100%;
 }
 
