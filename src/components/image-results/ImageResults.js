@@ -4,19 +4,13 @@ import './ImageResult.css';
 ;
 class ImageResults extends Component {
     
-modal(){
-     
-document.getElementById('modalBox').style.display="block";
-      
-
-  }
 
   render() { 
-    const { images } = this.props;
+    const { images, index } = this.props;
     return (
-      <div className="columns">
+      <div className="columns" key={index}>
           {images.map(img => (
-               <div className="tag" id={img.id}>
+               <div className="tag"  key={img.id}>
                 <img className="tagImage"  src={img.webformatURL} alt={img.tags}/>
                </div>
                

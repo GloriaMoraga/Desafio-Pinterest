@@ -48,12 +48,13 @@ color: #666;
 .icon-class{
     font-size: 25px;
     color:#8e8e8e;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 10px;
 }
 
 .user-box{
     width:50px;
-    height: auto;
+    height: 50px;
 
 }
 
@@ -86,4 +87,16 @@ color: #666;
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.loading-gif{
+   display:flex;
+   justify-content: center;
+  
+}
+
+
+.loading-gif img {
+    width: 120px;
+    height: 100px;
 }

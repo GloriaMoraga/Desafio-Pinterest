@@ -1,13 +1,15 @@
 {
-  "main.css": "/static/css/main.f92fe129.chunk.css",
-  "main.js": "/static/js/main.79d8e3a4.chunk.js",
-  "main.js.map": "/static/js/main.79d8e3a4.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.6a9a7e59.chunk.js": "/static/js/2.6a9a7e59.chunk.js",
-  "static/js/2.6a9a7e59.chunk.js.map": "/static/js/2.6a9a7e59.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.616554f085b10b63d84fc0b08b5dabdd.js": "/precache-manifest.616554f085b10b63d84fc0b08b5dabdd.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.f92fe129.chunk.css.map": "/static/css/main.f92fe129.chunk.css.map"
+  "main.css": "/Desafio-Pinterest/static/css/main.f7ac29c2.chunk.css",
+  "main.js": "/Desafio-Pinterest/static/js/main.e4841789.chunk.js",
+  "main.js.map": "/Desafio-Pinterest/static/js/main.e4841789.chunk.js.map",
+  "runtime~main.js": "/Desafio-Pinterest/static/js/runtime~main.624e1130.js",
+  "runtime~main.js.map": "/Desafio-Pinterest/static/js/runtime~main.624e1130.js.map",
+  "static/js/2.2a3814fd.chunk.js": "/Desafio-Pinterest/static/js/2.2a3814fd.chunk.js",
+  "static/js/2.2a3814fd.chunk.js.map": "/Desafio-Pinterest/static/js/2.2a3814fd.chunk.js.map",
+  "index.html": "/Desafio-Pinterest/index.html",
+  "precache-manifest.236b51114a099e73c38e2384877ccdde.js": "/Desafio-Pinterest/precache-manifest.236b51114a099e73c38e2384877ccdde.js",
+  "service-worker.js": "/Desafio-Pinterest/service-worker.js",
+  "static/css/main.f7ac29c2.chunk.css.map": "/Desafio-Pinterest/static/css/main.f7ac29c2.chunk.css.map",
+  "static/media/logo.png": "/Desafio-Pinterest/static/media/logo.899cd5e1.png",
+  "static/media/player.png": "/Desafio-Pinterest/static/media/player.f45826a8.png"
 }
