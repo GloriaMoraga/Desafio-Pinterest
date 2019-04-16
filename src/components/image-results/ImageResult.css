@@ -33,4 +33,56 @@
 .columns:hover .tag:hover {
     opacity: 0.6;
 }
-
+.modal-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    }
+    .modal-image{
+        width:300px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    
+    .modal-image img{
+        width:100%;
+        border-radius: 10px;
+        
+    }
+    
+    .modal-button{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .buttons{
+        padding: 20px;
+    }
+    
+    .modal-title{
+        width: 300px;
+    }
+    
+    .modal-title h3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #8e8e8e;
+    }
+    
+    .btn-modal{
+        padding: 10px 14px;
+        border-radius: 8px;
+        background-color: #efefef;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .m-r1{
+     margin-right:20px;
+    }

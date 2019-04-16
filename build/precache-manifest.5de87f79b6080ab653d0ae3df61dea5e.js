@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fb7a1d0958a83b7cc67a",
-    "url": "/Desafio-Pinterest/static/css/main.52ed0e07.chunk.css"
+    "revision": "43e0f8314b70355108ff",
+    "url": "/Desafio-Pinterest/static/css/main.8f8dda7e.chunk.css"
   },
   {
-    "revision": "fb7a1d0958a83b7cc67a",
-    "url": "/Desafio-Pinterest/static/js/main.0bfbdff7.chunk.js"
+    "revision": "43e0f8314b70355108ff",
+    "url": "/Desafio-Pinterest/static/js/main.d3d2ef48.chunk.js"
   },
   {
     "revision": "c5b0f7354d2b9ae88b7a",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Desafio-Pinterest/static/media/player.f45826a8.png"
   },
   {
-    "revision": "3de8d18172dc37abaa098baf044b5518",
+    "revision": "07b435e7c6dab5c1692113ddc7d614fa",
     "url": "/Desafio-Pinterest/index.html"
   }
 ];
